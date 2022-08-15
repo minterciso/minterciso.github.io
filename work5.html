@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+<!--
+	Strata by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Mateus Interciso Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<a href="index.html" class="image avatar"><img src="images/fulls/Ogre-logo.jpg" alt="" /></a>
+					<h1><strong>Creation of a simple multiplayer game with BT joysticks @ Ouvi</strong></h1>
+				</div>
+			</header>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- One -->
+					<section id="one">
+						<header class="major">
+							<h2>Creation of a simple multiplayer game with BT joysticks</h2>
+						</header>
+						<h2>About</h2>
+<p>When I was working on a marketing company, we came up with an ideia to create a Totem that would have a complete (simple, but complete) 3D Game running on a computer, while the users that passed around if they had their cellphones with Bluetooth enabled, they would receive an app for their cellphone that would be possible to control the game.</p>
+<p>This is still <b>THE</b> project I created. The one to tell my kid about it. With a team of myself and a graphic designer, we created 2 simple games for the POC, one was a Pacman clone to sell the ideia to the directors of the firm, which we did sold. And the other one was a POC to sell to the investors the main idea, which was also possible! I even created a small video on <a href="https://www.youtube.com/watch?v=j5zhDhs6f9c">Youtube</a> showing this (please remember that it was 2009, in Brazil, that means a very younger version of myself, no iPhone or good SDK game, just pure J2ME, and in Portuguese).</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/j5zhDhs6f9c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<p>I just have to talk a little more about this</p>
+<h3>PacMan Clone</h3>
+<p>Now, due to Copyright, I can't present the Pacman clone outside the company, but I can talk about it. As I mentioned, this was a 3 piece game:</p>
+<ol>
+<li>A joystick like app for the cellphone, made in J2ME and delivered via a Bluetooth server</li>
+<li>A Bluetooth server that was responsible for: i) Sending the J2ME app to the cellphone, ii) Controlling and orchestrating the multiplayer part for the game</li>
+<li>The actual game itself.</li>
+</ol>
+<p>We created the Bluetooth server in plain C. The Bluetooth server kept the Bluetooth dongle in scanning mode and whenever someone with a Bluetooth enabled cell phone arrived at range, it asked the user if he wanted to receive the app. If the user said Yes, then a J2ME app was downloaded to the cell phone and fired up. Upon firing it up it looked for slots on the Multiplayer, the user could be one of the Ghosts, or the Pacman. If the user was the Pacman, then the J2ME app worked simply as a remote joystick and the Bluetooth server replied the app information to the game engine. However if the user was a Ghost, and there was at least one Ghost controlled by the game, that was things got interesting for me at least. That Ghost controlled by the game had a strategy that kept evolving based on how the Pacman  user played, and it kept sending feedbacks to the Joystick app saying things like: "Go left here, if you do that we'll corner the Pacman".</p>
+<p>Now, I always had a AI likeness, but this, this was when I decided to actually pursue my AI Masters Degree and, on autonomous agents. The rest of the game was pretty standard for the time, C++, Ogre and SDL were responsible for executing everything. We had no access to any advanced 3D SDK, due to a <em>no budget</em> time.</p>
+<h3>Desert challenge</h3>
+<p>With the Pacman experience sold, they asked us to create a new one (with no issues of Copyright) to sell to the company owners. So we used the same technology used on the Pacman and created a Dragster Race. In this one, the user had to shift gears at the right time to be able to win the race.</p>
+<h2>Challenges</h2>
+<p>Where to begin? Have you ever tried to create a 3D Game by scratch? Add to this a Bluetooth server and an J2ME application on a time were there was no real standard, and each company implemented the J2ME of their cell phone differently, even among the same brand!</p>
+<p>I believe until this day that games, are a form of art. And to create a complete game is to create art in it's purest form, you have to think of story, art, music, direction, technology, timeline, and the list could go on and on and on.</p>
+<p>Games are, without question, one of the most complex piece of software, both for an architect, developer, and artist.</p>
+            <h6>@2009</h6>
+					</section>
+
+				
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<ul class="icons">
+						<li><a href="https://twitter.com/MateusInterciso" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="https://github.com/minterciso/" class="icon brands fa-github"><span class="label">Github</span></a></li>
+						<li><a href="https://www.linkedin.com/in/mateusinterciso/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+						<li><a href="mailto:minterciso@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
