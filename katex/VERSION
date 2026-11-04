@@ -1,0 +1,3 @@
+katex 0.18.4 (MIT), dist/katex.min.css and woff2 fonts, unmodified.
+Source: https://cdn.jsdelivr.net/npm/katex@0.18.4/dist/
+Must match the KaTeX version embedded in the pinned Hugo; recheck on a Hugo bump.
