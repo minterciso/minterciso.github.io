@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35.5000 6.0545" width="781" height="133"  role="img">
+<title>Regra 30</title>
+<rect width="35.5000" height="6.0545" fill="#fff"/>
+<text x="17.7500" y="1.0455" font-family="system-ui, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif" font-size="0.9091" font-weight="600" text-anchor="middle" fill="#000">Regra 30</text>
+<g transform="translate(0 1.4545)">
+<rect x="0.50" y="0.50" width="1" height="1" fill="#000" stroke="#000" stroke-width="0.08"/>
+<rect x="1.50" y="0.50" width="1" height="1" fill="#000" stroke="#000" stroke-width="0.08"/>
+<rect x="2.50" y="0.50" width="1" height="1" fill="#000" stroke="#000" stroke-width="0.08"/>
+<rect x="1.50" y="2.10" width="1" height="1" fill="#fff" stroke="#000" stroke-width="0.08"/>
+<text x="2.00" y="4.00" font-family="system-ui, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif" font-size="0.9" font-weight="600" text-anchor="middle" fill="#000">0</text>
+<rect x="5.00" y="0.50" width="1" height="1" fill="#000" stroke="#000" stroke-width="0.08"/>
+<rect x="6.00" y="0.50" width="1" height="1" fill="#000" stroke="#000" stroke-width="0.08"/>
+<rect x="7.00" y="0.50" width="1" height="1" fill="#fff" stroke="#000" stroke-width="0.08"/>
+<rect x="6.00" y="2.10" width="1" height="1" fill="#fff" stroke="#000" stroke-width="0.08"/>
+<text x="6.50" y="4.00" font-family="system-ui, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif" font-size="0.9" font-weight="600" text-anchor="middle" fill="#000">0</text>
+<rect x="9.50" y="0.50" width="1" height="1" fill="#000" stroke="#000" stroke-width="0.08"/>
+<rect x="10.50" y="0.50" width="1" height="1" fill="#fff" stroke="#000" stroke-width="0.08"/>
+<rect x="11.50" y="0.50" width="1" height="1" fill="#000" stroke="#000" stroke-width="0.08"/>
+<rect x="10.50" y="2.10" width="1" height="1" fill="#fff" stroke="#000" stroke-width="0.08"/>
+<text x="11.00" y="4.00" font-family="system-ui, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif" font-size="0.9" font-weight="600" text-anchor="middle" fill="#000">0</text>
+<rect x="14.00" y="0.50" width="1" height="1" fill="#000" stroke="#000" stroke-width="0.08"/>
+<rect x="15.00" y="0.50" width="1" height="1" fill="#fff" stroke="#000" stroke-width="0.08"/>
+<rect x="16.00" y="0.50" width="1" height="1" fill="#fff" stroke="#000" stroke-width="0.08"/>
+<rect x="15.00" y="2.10" width="1" height="1" fill="#000" stroke="#000" stroke-width="0.08"/>
+<text x="15.50" y="4.00" font-family="system-ui, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif" font-size="0.9" font-weight="600" text-anchor="middle" fill="#000">1</text>
+<rect x="18.50" y="0.50" width="1" height="1" fill="#fff" stroke="#000" stroke-width="0.08"/>
+<rect x="19.50" y="0.50" width="1" height="1" fill="#000" stroke="#000" stroke-width="0.08"/>
+<rect x="20.50" y="0.50" width="1" height="1" fill="#000" stroke="#000" stroke-width="0.08"/>
+<rect x="19.50" y="2.10" width="1" height="1" fill="#000" stroke="#000" stroke-width="0.08"/>
+<text x="20.00" y="4.00" font-family="system-ui, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif" font-size="0.9" font-weight="600" text-anchor="middle" fill="#000">1</text>
+<rect x="23.00" y="0.50" width="1" height="1" fill="#fff" stroke="#000" stroke-width="0.08"/>
+<rect x="24.00" y="0.50" width="1" height="1" fill="#000" stroke="#000" stroke-width="0.08"/>
+<rect x="25.00" y="0.50" width="1" height="1" fill="#fff" stroke="#000" stroke-width="0.08"/>
+<rect x="24.00" y="2.10" width="1" height="1" fill="#000" stroke="#000" stroke-width="0.08"/>
+<text x="24.50" y="4.00" font-family="system-ui, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif" font-size="0.9" font-weight="600" text-anchor="middle" fill="#000">1</text>
+<rect x="27.50" y="0.50" width="1" height="1" fill="#fff" stroke="#000" stroke-width="0.08"/>
+<rect x="28.50" y="0.50" width="1" height="1" fill="#fff" stroke="#000" stroke-width="0.08"/>
+<rect x="29.50" y="0.50" width="1" height="1" fill="#000" stroke="#000" stroke-width="0.08"/>
+<rect x="28.50" y="2.10" width="1" height="1" fill="#000" stroke="#000" stroke-width="0.08"/>
+<text x="29.00" y="4.00" font-family="system-ui, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif" font-size="0.9" font-weight="600" text-anchor="middle" fill="#000">1</text>
+<rect x="32.00" y="0.50" width="1" height="1" fill="#fff" stroke="#000" stroke-width="0.08"/>
+<rect x="33.00" y="0.50" width="1" height="1" fill="#fff" stroke="#000" stroke-width="0.08"/>
+<rect x="34.00" y="0.50" width="1" height="1" fill="#fff" stroke="#000" stroke-width="0.08"/>
+<rect x="33.00" y="2.10" width="1" height="1" fill="#fff" stroke="#000" stroke-width="0.08"/>
+<text x="33.50" y="4.00" font-family="system-ui, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif" font-size="0.9" font-weight="600" text-anchor="middle" fill="#000">0</text>
+</g>
+</svg>
